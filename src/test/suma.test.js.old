@@ -1,0 +1,7 @@
+import { suma } from "../functions/suma.js";
+
+describe('Pruebas en la función suma', ()=>{
+  test('sumar 1+2',()=>{
+    expect(suma(1,2)).toBe(3);
+    });
+});
